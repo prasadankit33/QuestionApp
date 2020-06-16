@@ -6,18 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="620dp"
-        android:id="@+id/text1"
-        />
-    <FrameLayout
-        android:layout_width="match_parent"
-        android:layout_height="60dp"
-        android:id="@+id/container"
-        android:background="@android:color/white"
 
-        />
+
 
     <com.google.android.material.bottomnavigation.BottomNavigationView
         android:id="@+id/bottom_navigation"
@@ -29,6 +19,55 @@
         app:itemIconTint="@drawable/item_selected"
         app:itemTextColor="@drawable/item_selected"
         />
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_marginBottom="-3dp" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_alignBottom="@+id/text1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        </LinearLayout>
+    <TextView
+        android:id="@+id/text1"
+        android:layout_width="match_parent"
+        android:layout_height="678dp"
+        android:layout_above="@+id/bottom_navigation"
+        android:layout_marginBottom="-3dp" />
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+
+        android:layout_alignBottom="@+id/text1"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginBottom="0dp"
+        android:background="@android:color/white"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+
+
+
 
 
 
