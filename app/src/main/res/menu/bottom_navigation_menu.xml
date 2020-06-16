@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@android:color/white"
+    >
+
+
+    <item
+        android:color="@android:color/white"
+        android:id="@+id/feed"
+        android:enabled="true"
+        android:title="Feed"
+        android:state_checked="true"
+        android:icon="@drawable/ic_feed"/>
+    <item
+        android:color="@android:color/white"
+        android:id="@+id/ask"
+        android:enabled="true"
+        android:title="Ask"
+        android:state_checked="true"
+        android:icon="@drawable/ic_ask"/>
+    <item
+        android:color="@color/colorPrimary"
+        android:id="@+id/answer"
+        android:enabled="true"
+        android:title="Answer"
+        android:state_checked="true"
+        android:icon="@drawable/ic_answer"
+        />
+    <item
+        android:color="@color/colorPrimary"
+        android:id="@+id/notifications"
+        android:enabled="true"
+        android:title="Notifications"
+        android:state_checked="true"
+        android:icon="@drawable/ic_notification"
+        />
+
+</menu>
